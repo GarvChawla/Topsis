@@ -103,7 +103,7 @@ def main():
     if len(sys.argv) != 5:
         print("Incorrect number of arguments.")
         print("Usage: python <program.py> <InputDataFile> <Weights> <Impacts> <ResultFileName>")
-        print("Example: python 102203753.py 102203753-data.csv \"1,1,1,2\" \"+,+,-,+\" 102203753-result.csv")
+        print("Example: python 102203683.py 102203683-data.csv \"1,1,1,2\" \"+,+,-,+\" 102203683-result.csv")
         sys.exit(1)
     
     try:
